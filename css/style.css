@@ -1,0 +1,22 @@
+/* basic layout */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 75%;
+    margin: 0.7em auto;
+}
+
+.item{
+    margin: 1%;
+    height: 300px;
+    /* numero brutto per centrare le box */
+    width: 30.62%; 
+    background-color: aqua;
+    list-style: none;
+    display: inline-block;
+
+}
