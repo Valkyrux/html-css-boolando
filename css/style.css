@@ -12,11 +12,53 @@ main{
 
 .item{
     margin: 1%;
-    height: 300px;
     /* numero brutto per centrare le box */
     width: 30.62%; 
-    background-color: aqua;
     list-style: none;
     display: inline-block;
+    position: relative;
 
 }
+
+.image-container{
+     height: 426.7px;
+}
+
+img{
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+}
+
+.love{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background-color: white;
+    font-size: 1.5em;
+    width: 1.5em;
+    text-align: center;
+}
+
+.label{
+    position: absolute;
+    bottom: 25px;
+    font-size: 1em;
+    width: 1em;
+    color: white;
+    width: 100%;
+}
+
+.label *{
+    padding: 0.4em;
+    text-align: center;
+}
+
+.discount{
+    background-color: red;
+}
+
+.eco{
+    background-color: green;
+}
+
